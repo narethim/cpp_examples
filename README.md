@@ -10,14 +10,14 @@
 
 ```sh
 
-cpp_example
+cpp_examples
   |
   + src ( cpp files and Makefile )
   |
   + test
     |
     + src ( Unit Test files and Makefile )
-    
+
 ```
 
 ## How to run it
@@ -26,7 +26,7 @@ cpp_example
 
 cd app_examples
 
-ant 
+ant
 
 ant run
 
@@ -35,4 +35,3 @@ ant clean
 ant run-test
 
 ```
-
