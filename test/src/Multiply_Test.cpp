@@ -28,3 +28,7 @@ TEST_F(MultiplyTest,twoValues2){
     EXPECT_EQ(18,multiply.twoValues(6,3));
 }
 
+TEST_F(MultiplyTest,twoValues3){
+    EXPECT_EQ(20,multiply.twoValues(6,3));
+}
+
