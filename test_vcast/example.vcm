@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="28">
+  <config>
+    <saved-logs>5</saved-logs>
+    <build-directory-naming-strategy>COMPRESSED</build-directory-naming-strategy>
+  </config>
+  <project-id>1599149790</project-id>
+  <factor-config-options>0</factor-config-options>
+  <environment name="ADDITION" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>example/build/2189263597</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="EXAMPLEAPP" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>example/build/2958009048</original-environment-directory>
+    </config>
+  </environment>
+  <environment name="MULTIPLY" type="UNIT">
+    <language>2</language>
+    <is-monitored>0</is-monitored>
+    <config>
+      <original-environment-directory>example/build/2032275519</original-environment-directory>
+    </config>
+  </environment>
+  <group name="Group">
+    <environment name="ADDITION"/>
+    <environment name="EXAMPLEAPP"/>
+    <environment name="MULTIPLY"/>
+  </group>
+  <compiler>
+    <compiler>
+      <name>VectorCAST_MinGW_C++</name>
+      <config>
+        <config>
+          <key>C_COMPILER_TAG</key>
+          <value>BUILTIN_MINGW_63_CPP</value>
+        </config>
+      </config>
+    </compiler>
+    <testsuite name="TestSuite">
+      <group name="Group"/>
+    </testsuite>
+  </compiler>
+</project>
