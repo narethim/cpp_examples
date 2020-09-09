@@ -24,7 +24,7 @@ cpp_examples
 
 ```sh
 
-cd app_examples
+cd cpp_examples
 
 ant
 
