@@ -3,7 +3,7 @@ CXX = g++
 #CXXFLAGS = -g -L/opt/gtest/lib -lgtest -lgtest_main -lpthread
 CXXFLAGS = 
 
-LINKFLAGS = -g -lgtest -lpthread
+LINKFLAGS = -L/usr/local/lib -g -lgtest -lpthread
 
 #INCS = -I./ -I../../src -I/opt/gtest/include
 INCS = -I./ -I../../src -I/usr/include
