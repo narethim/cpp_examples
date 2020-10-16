@@ -1,5 +1,7 @@
 # cpp_examples - Cpp Example code and Unit Test using Google Test
 
+![C++-CI](https://github.com/narethim/cpp_examples/workflows/C++-CI/badge.svg?branch=master)
+
 ## Prerequisite
 
 * Java SDK Development
