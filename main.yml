@@ -70,6 +70,18 @@
       include_role:
         name: geerlingguy.java
 
-#  roles:
-#    - role: geerlingguy.java
-#      become: true
+    # Git checkout
+    - name: Git checkout
+      git:
+        repo: "https://github.com/narethim/cpp_examples.git"
+        dest: "/home/vagrant/checkout"
+      become: false
+
+    # Build using ant
+    - name: Build using ant.
+      shell: "cd /home/vagrant/checkout/ && ant"
+      register: build_output
+
+    - name: Display build_output.
+      debug:
+        var: build_output.stdout
