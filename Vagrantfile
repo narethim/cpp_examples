@@ -13,10 +13,10 @@ Vagrant.configure("2") do |config|
     vb.cpus = "2"
   end
 
-  # Shell provisioning.
-  config.vm.provision "shell", inline: <<-SHELL
-    apt-get update
-  SHELL
+#  # Shell provisioning.
+#  config.vm.provision "shell", inline: <<-SHELL
+#    apt-get update
+#  SHELL
 
   # Ansible provisioning.
   config.vm.provision "ansible" do |ansible|
